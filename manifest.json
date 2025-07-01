@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "SearXNG (searx.stream)",
+  "short_name": "SearXNG (searx.stream)",
+  "author": "itsalex",
+  "description": "Add SearXNG (searx.stream) to search engine list.",
+  "icons": {
+    "16": "images/searxng-wordmark.svg",
+    "128": "images/searxng-wordmark.svg"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "SearXNG (searx.stream)",
+      "keyword": "searx, searxng",
+      "search_url": "https://searx.stream/search?q={searchTerms}",
+      "favicon_url": "images/searxng-wordmark.svg",
+      "suggest_url": "https://searx.stream/autocompleter?q={searchTerms}",
+      "encoding": "UTF-8",
+      "is_default": true
+    }
+  }
+}
