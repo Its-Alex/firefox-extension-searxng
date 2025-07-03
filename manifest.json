@@ -1,33 +1,36 @@
 {
-  "manifest_version": 2,
-  "version": "1.0",
-  "name": "SearXNG (searx.stream)",
-  "short_name": "SearXNG (searx.stream)",
   "author": "itsalex",
-  "description": "Add SearXNG (searx.stream) to search engine list.",
-  "icons": {
-    "16": "images/searxng-wordmark.svg",
-    "128": "images/searxng-wordmark.svg"
-  },
   "browser_specific_settings": {
     "gecko": {
       "id": "searx.stream@itsalex.fr",
-      "strict_min_version": "100.0"
+      "strict_min_version": "100.0",
+      "update_url": "https://raw.github.com/Its-Alex/firefox-extension-searx-stream/main/manifest.json"
     },
     "gecko_android": {
       "id": "searx.stream@itsalex.fr",
-      "strict_min_version": "113.0"
+      "strict_min_version": "113.0",
+      "update_url": "https://raw.github.com/Its-Alex/firefox-extension-searx-stream/main/manifest.json"
     }
   },
   "chrome_settings_overrides": {
     "search_provider": {
-      "name": "SearXNG (searx.stream)",
-      "keyword": "searx, searxng",
-      "search_url": "https://searx.stream/search?q={searchTerms}",
-      "favicon_url": "images/searxng-wordmark.svg",
-      "suggest_url": "https://searx.stream/autocompleter?q={searchTerms}",
       "encoding": "UTF-8",
-      "is_default": true
+      "favicon_url": "images/searxng-wordmark.svg",
+      "is_default": true,
+      "keyword": "searx, searxng",
+      "name": "SearXNG (searx.stream)",
+      "search_url": "https://searx.stream/search?q={searchTerms}",
+      "suggest_url": "https://searx.stream/autocompleter?q={searchTerms}"
     }
-  }
+  },
+  "description": "Searx Stream is a Firefox extension that allows you to easily define the search engine to searx.stream instance of SearXNG.",
+  "homepage_url": "https://github.com/Its-Alex/firefox-extension-searx-stream/",
+  "icons": {
+    "128": "images/searxng-wordmark.svg",
+    "16": "images/searxng-wordmark.svg"
+  },
+  "manifest_version": 2,
+  "name": "SearXNG (searx.stream)",
+  "short_name": "SearXNG (searx.stream)",
+  "version": "1.0.2"
 }
