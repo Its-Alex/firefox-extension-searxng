@@ -10,14 +10,38 @@ we can find list of public instances at [searx.space](https://searx.space/).
 
 - `zip`
 - `bash`
+- `mise`
+
+Then launch the following commands:
+
+```sh
+mise trust && mise install && npm install --global web-ext@8.8.0
+```
+
+You should be ready and have access to `web-ext` command:
+
+```sh
+$ web-ext --version
+8.8.0
+```
 
 ## Getting started
 
 Extension configuration is very simple and can be found in
 [manifest.json](./manifest.json).
 
-You can edit this file and try the extension temporary using
-[firefox documentation](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension#testing).
+### Try extension using web-ext
+
+We can test this extension using firefox, in this case we will try with a
+flatpak version of firefox. To run this extension inside it please run:
+
+```sh
+web-ext run --firefox=flatpak:org.mozilla.firefox
+```
+
+Please note that `--firefox=flatpak:org.mozilla.firefox` is specific to flatpak
+installation (you can find more information on
+[web-ext run documentation](https://extensionworkshop.com/documentation/develop/web-ext-command-reference/#web-ext-run))
 
 ## License
 

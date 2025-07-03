@@ -9,6 +9,16 @@
     "16": "images/searxng-wordmark.svg",
     "128": "images/searxng-wordmark.svg"
   },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "searx.stream@itsalex.fr",
+      "strict_min_version": "100.0"
+    },
+    "gecko_android": {
+      "id": "searx.stream@itsalex.fr",
+      "strict_min_version": "113.0"
+    }
+  },
   "chrome_settings_overrides": {
     "search_provider": {
       "name": "SearXNG (searx.stream)",
