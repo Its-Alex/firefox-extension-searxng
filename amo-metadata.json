@@ -1,0 +1,37 @@
+{
+  "categories": [
+    "search-tools",
+    "privacy-security"
+  ],
+  "compatibility": {
+    "firefox": {
+      "max": "*",
+      "min": "110.0"
+    }
+  },
+  "developer": {
+    "name": "Its-Alex",
+    "url": "https://github.com/Its-Alex"
+  },
+  "homepage": {
+    "en-US": "https://github.com/Its-Alex/firefox-extension-searx-stream"
+  },
+  "license": "MIT",
+  "slug": "searx-stream",
+  "summary": {
+    "en-US": "Use SearXNG (searx.stream) directly from your Firefox browser."
+  },
+  "support_email": {
+    "en-US": "me+addons.firefox@itsalex.fr"
+  },
+  "support_url": {
+    "en-US": "https://github.com/Its-Alex/firefox-extension-searx-stream/issues"
+  },
+  "tags": [
+    "search",
+    "privacy"
+  ],
+  "version": {
+    "license": "MIT"
+  }
+}
