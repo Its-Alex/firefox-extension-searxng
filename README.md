@@ -43,6 +43,29 @@ Please note that `--firefox=flatpak:org.mozilla.firefox` is specific to flatpak
 installation (you can find more information on
 [web-ext run documentation](https://extensionworkshop.com/documentation/develop/web-ext-command-reference/#web-ext-run))
 
+## How to sign extension
+
+If you have access please decrypt environment and use it:
+
+```sh
+./scripts/decrypt-env.sh
+```
+
+When it's done you should have some variables available in your shell:
+
+```sh
+$ env | grep WEB_
+WEB_EXT_API_KEY=...
+WEB_EXT_API_SECRET=...
+```
+
+Now you just need to update the version in the [manifest.json](./manifest.json)
+then execute:
+
+```sh
+$ ./script/sign-extension.sh
+```
+
 ## License
 
 [MIT](./LICENSE)
