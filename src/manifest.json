@@ -3,11 +3,10 @@
   "browser_specific_settings": {
     "gecko": {
       "id": "searx.stream@itsalex.fr",
-      "strict_min_version": "100.0",
+      "strict_min_version": "100.0"
     },
     "gecko_android": {
-      "id": "searx.stream@itsalex.fr",
-      "strict_min_version": "113.0",
+      "strict_min_version": "113.0"
     }
   },
   "chrome_settings_overrides": {
@@ -25,6 +24,7 @@
   "homepage_url": "https://github.com/Its-Alex/firefox-extension-searx-stream/",
   "icons": {
     "128": "images/searxng-wordmark.svg",
+    "48": "images/searxng-wordmark.svg",
     "16": "images/searxng-wordmark.svg"
   },
   "manifest_version": 2,
