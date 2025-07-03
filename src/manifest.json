@@ -4,12 +4,10 @@
     "gecko": {
       "id": "searx.stream@itsalex.fr",
       "strict_min_version": "100.0",
-      "update_url": "https://raw.github.com/Its-Alex/firefox-extension-searx-stream/main/manifest.json"
     },
     "gecko_android": {
       "id": "searx.stream@itsalex.fr",
       "strict_min_version": "113.0",
-      "update_url": "https://raw.github.com/Its-Alex/firefox-extension-searx-stream/main/manifest.json"
     }
   },
   "chrome_settings_overrides": {
@@ -32,5 +30,5 @@
   "manifest_version": 2,
   "name": "SearXNG (searx.stream)",
   "short_name": "SearXNG (searx.stream)",
-  "version": "1.0.3"
+  "version": "1.0.4"
 }
