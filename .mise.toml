@@ -1,2 +1,3 @@
 [tools]
-node = "24.3.0"
+node = "23.11.1" # Because of web-ext https://github.com/mozilla/web-ext/issues/3418#issuecomment-2915237293
+
