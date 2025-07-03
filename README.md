@@ -28,7 +28,7 @@ $ web-ext --version
 ## Getting started
 
 Extension configuration is very simple and can be found in
-[manifest.json](./manifest.json).
+[src](./src/).
 
 ### Try extension using web-ext
 
@@ -36,7 +36,7 @@ We can test this extension using firefox, in this case we will try with a
 flatpak version of firefox. To run this extension inside it please run:
 
 ```sh
-web-ext run --firefox=flatpak:org.mozilla.firefox
+web-ext run -s src --firefox=flatpak:org.mozilla.firefox
 ```
 
 Please note that `--firefox=flatpak:org.mozilla.firefox` is specific to flatpak
