@@ -15,7 +15,7 @@ we can find list of public instances at [searx.space](https://searx.space/).
 Then launch the following commands:
 
 ```sh
-mise trust && mise install && npm install --global web-ext@8.8.0
+mise trust && mise install && mise reshim && npm install --global web-ext@8.8.0
 ```
 
 You should be ready and have access to `web-ext` command:
