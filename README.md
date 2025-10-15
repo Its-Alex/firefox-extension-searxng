@@ -1,6 +1,6 @@
-# Searx-stream firefox extension
+# Searxng firefox extension
 
-This repository is an extension to define [searx.stream](https://searx.stream/)
+This repository is an extension to define [search.rhscz.eu](https://search.rhscz.eu/)
 as default search engine.
 
 This is a search engine based on [searxng](https://github.com/searxng/searxng),

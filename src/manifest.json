@@ -20,8 +20,8 @@
       "suggest_url": "https://search.rhscz.eu/autocompleter?q={searchTerms}"
     }
   },
-  "description": "Searx Stream is a Firefox extension that allows you to easily define the search engine to search.rhscz.eu instance of SearXNG.",
-  "homepage_url": "https://github.com/Its-Alex/firefox-extension-searx-stream/",
+  "description": "Searxng is a Firefox extension that allows you to easily define the search engine to search.rhscz.eu instance of SearXNG.",
+  "homepage_url": "https://github.com/Its-Alex/firefox-extension-searxng/",
   "icons": {
     "128": "images/searxng-wordmark.svg",
     "48": "images/searxng-wordmark.svg",
