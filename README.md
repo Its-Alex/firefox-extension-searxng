@@ -63,7 +63,7 @@ Now you just need to update the version in the [manifest.json](./manifest.json)
 then execute:
 
 ```sh
-$ ./script/sign-extension.sh
+$ ./scripts/sign-extension.sh
 ```
 
 ## License
