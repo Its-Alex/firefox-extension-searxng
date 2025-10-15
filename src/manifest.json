@@ -28,7 +28,7 @@
     "16": "images/searxng-wordmark.svg"
   },
   "manifest_version": 2,
-  "name": "SearXNG (search.rhscz.eu)",
-  "short_name": "SearXNG (search.rhscz.eu)",
-  "version": "1.1.0"
+  "name": "SearXNG (search.rhscz.eu) - Its-Alex",
+  "short_name": "SearXNG - Its-Alex",
+  "version": "1.1.2"
 }
