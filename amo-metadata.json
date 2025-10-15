@@ -14,10 +14,10 @@
     "url": "https://github.com/Its-Alex"
   },
   "homepage": {
-    "en-US": "https://github.com/Its-Alex/firefox-extension-searx-stream"
+    "en-US": "https://github.com/Its-Alex/firefox-extension-searxng"
   },
   "license": "MIT",
-  "slug": "searx-stream",
+  "slug": "searxng-itsalex",
   "summary": {
     "en-US": "Use SearXNG (searx.stream) directly from your Firefox browser."
   },
@@ -25,7 +25,7 @@
     "en-US": "me+addons.firefox@itsalex.fr"
   },
   "support_url": {
-    "en-US": "https://github.com/Its-Alex/firefox-extension-searx-stream/issues"
+    "en-US": "https://github.com/Its-Alex/firefox-extension-searxng/issues"
   },
   "tags": [
     "search",

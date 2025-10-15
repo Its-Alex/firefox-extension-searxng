@@ -2,7 +2,7 @@
   "author": "itsalex",
   "browser_specific_settings": {
     "gecko": {
-      "id": "searx.stream@itsalex.fr",
+      "id": "searxng@itsalex.fr",
       "strict_min_version": "100.0"
     },
     "gecko_android": {
@@ -15,12 +15,12 @@
       "favicon_url": "images/searxng-wordmark.svg",
       "is_default": true,
       "keyword": "searx, searxng",
-      "name": "SearXNG (searx.stream)",
-      "search_url": "https://searx.stream/search?q={searchTerms}",
-      "suggest_url": "https://searx.stream/autocompleter?q={searchTerms}"
+      "name": "SearXNG (search.rhscz.eu) - Its-Alex",
+      "search_url": "https://search.rhscz.eu/search?q={searchTerms}",
+      "suggest_url": "https://search.rhscz.eu/autocompleter?q={searchTerms}"
     }
   },
-  "description": "Searx Stream is a Firefox extension that allows you to easily define the search engine to searx.stream instance of SearXNG.",
+  "description": "Searx Stream is a Firefox extension that allows you to easily define the search engine to search.rhscz.eu instance of SearXNG.",
   "homepage_url": "https://github.com/Its-Alex/firefox-extension-searx-stream/",
   "icons": {
     "128": "images/searxng-wordmark.svg",
@@ -28,7 +28,7 @@
     "16": "images/searxng-wordmark.svg"
   },
   "manifest_version": 2,
-  "name": "SearXNG (searx.stream)",
-  "short_name": "SearXNG (searx.stream)",
-  "version": "1.0.4"
+  "name": "SearXNG (search.rhscz.eu)",
+  "short_name": "SearXNG (search.rhscz.eu)",
+  "version": "1.1.0"
 }
