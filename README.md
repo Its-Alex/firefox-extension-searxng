@@ -1,6 +1,6 @@
 # Searxng firefox extension
 
-This repository is an extension to define [search.rhscz.eu](https://search.rhscz.eu/)
+This repository is an extension to define [searxng.canine.tools](https://searxng.canine.tools/)
 as default search engine.
 
 This is a search engine based on [searxng](https://github.com/searxng/searxng),
